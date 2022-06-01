@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'robotoBlack';
-  src: url(/styles/Roboto/Roboto-Black.ttf) format('truetype');
+  src: url(Roboto/Roboto-Black.ttf) format('truetype');
 }
 @font-face {
   font-family: 'robotoBold';
-  src: url(/styles/Roboto/Roboto-Bold.ttf) format('truetype');
+  src: url(Roboto/Roboto-Bold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'robotoLightItalics';
-  src: url(/styles/Roboto/Roboto-LightItalic.ttf) format('truetype');
+  src: url(Roboto/Roboto-LightItalic.ttf) format('truetype');
 }
 .hero{
   background-color: #1f2937;
