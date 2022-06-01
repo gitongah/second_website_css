@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'robotoBlack';
+  src: url(/Roboto/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'robotoBold';
+  src: url(/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'robotoLightItalics';
+  src: url(/Roboto/Roboto-ThinItalic.ttf) format('truetype');
+}
+.hero{
+  background-color: #1f2937;
+  color: white;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+li{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px #E5E7EB;
+  
+}
+.nav-link{
+  padding-right: 150px;
+  
+}
+.logo{
+  padding-left: 150px;
+  font-size: 24px #F9FA98;
+}
+.main-content{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  gap: 40px;
+}
+.main32{
+  font-family: 'robotoBlack' sans-serif;
+  font-size: 48px;
+  color: #F9FAF8;
+}
+.content{
+  padding-left: 150px;
+  display: block;
+  width: 50%;
+}
+
+.img_placeholder{
+  padding: 10px;
+  height: 150px;
+  margin-top: 20px;
+  margin-right: 150px;
+  width: 50%;
+  background-color: grey;
+}
+.text-img{
+  padding-top: 60px;
+  text-align: center;
+}
+button.btn {
+  padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#3882f6;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+}
+.random{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-bottom: 100px;
+  
+}
+.div-pic{
+  text-align:justify;
+  width: 100px;
+  height: 100px;
+}
+.column{
+  padding: 60px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  padding: bottom 1px; 
+  display: inline-block;
+}
+.caption{
+  display: block;
+  line-height: 15px;
+
+}
+
+.quotes {
+  background-color: #e5e7eb;
+  margin: 150px;
+  padding: 80px;
+  font-size: 26px;
+  
+}
+.quotes p{
+  font-family: 'robotoLightItalics',sans-serif;
+}
+.author{
+  font-size: 15px;
+  float: right;
+}
+
+
+.signup{
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  margin: 150px;
+  display: flex;
+  
+}
+.signup h3{
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.call-to-action{
+  width: 100%;
+ 
+  padding: 30px;
+}
+
+.btn2{
+  padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#3882f6;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  border: 2px solid white;
+  
+}
+.btn-div{
+  float: right;
+}
+
+.footer{
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 100px;
+}
